@@ -2,27 +2,29 @@
 local repository
 
 
-git init			-> initialize working directory
-git stutus 			-> status of working directory 
-git status -s 			-> small status of working directory 
-git add <filename>		-> add file to staging area
-git add -A			-> add all file to staging area
-git commit			-> save snapshot of working directory
-git commit -m "comment"		-> save snapshot of working directory with comment
-git commit -a -m "comment"	-> add all file to staging area and save snapshot of working directory 
-git checkout <filename>		-> retrive/match content of file from last commit
-git checkout -f			-> retrive/match content of all file from last commit
-git log				-> commit history
-git log -p -2			-> commit history of last 2 with details
-git diff			-> compare working directory with staging area
-git rm --cached <filename>	-> remove file from staging area but not from working directory
-git rm <filename>		-> remove file from staging area and from working directory
-.gitignore			-> add path of unwanted files
-git branch			-> show all branchs(default master branch only)
-git branch <branchname>		-> create new branch
-git checkout <branchname>	-> change branch
-git checkout -b <branchname>	-> create new branch and change branch
-git merge <branchname>		-> merge <branchname> to current active branch
+git init					-> initialize working directory
+git config --global user.name <name>		-> set user name
+git config --global user.email <email>		-> set user email
+git stutus 					-> status of working directory 
+git status -s 					-> small status of working directory 
+git add <filename>				-> add file to staging area
+git add -A					-> add all file to staging area
+git commit					-> save snapshot of working directory
+git commit -m "comment"				-> save snapshot of working directory with comment
+git commit -a -m "comment"			-> add all file to staging area and save snapshot of working directory 
+git checkout <filename>				-> retrive/match content of file from last commit
+git checkout -f					-> retrive/match content of all file from last commit
+git log						-> commit history
+git log -p -2					-> commit history of last 2 with details
+git diff					-> compare working directory with staging area
+git rm --cached <filename>			-> remove file from staging area but not from working directory
+git rm <filename>				-> remove file from staging area and from working directory
+.gitignore					-> add path of unwanted files
+git branch					-> show all branchs(default master branch only)
+git branch <branchname>				-> create new branch
+git checkout <branchname>			-> change branch
+git checkout -b <branchname>			-> create new branch and change branch
+git merge <branchname>				-> merge <branchname> to current active branch
 
 
 ---------------------------------------------------------------------------------------------
